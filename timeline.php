@@ -13,12 +13,14 @@
     <body>
         <!-- navbar -->
         <nav class="navbar navbar-light bg-dark">
-            <form class="form-inline">
-                <input class="form-control md-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
-            </form>
-
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <form class="form-inline">
+                    <input class="form-control md-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+                </form>
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>

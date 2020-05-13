@@ -13,6 +13,11 @@
     <body>
         <!-- navbar -->
         <nav class="navbar navbar-light bg-dark">
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+            </form>
+
             <a class="navbar-brand" href="#">
                 <img src="/docs/4.5/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="" loading="lazy">
             </a>
